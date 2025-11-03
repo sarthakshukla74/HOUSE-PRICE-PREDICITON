@@ -1,0 +1,106 @@
+# =========================================
+# 🧠 Python + ML Project .gitignore
+# =========================================
+
+# --- Python cache files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints
+*.ipynb_checkpoints
+*.ipynb_*
+.profile
+.history
+.python-version
+
+# --- Logs & temporary files ---
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+
+# --- System specific ---
+Thumbs.db
+desktop.ini
+
+# --- Build / Distribution directories ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Data files ---
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.hdf5
+*.db
+*.sqlite3
+*.sqlite
+
+# --- Model files ---
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.model
+*.sav
+
+# --- IDE & Editor specific ---
+.vscode/
+.idea/
+.spyproject/
+*.sublime-project
+*.sublime-workspace
+
+# --- Test / coverage reports ---
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+
+# --- Backup files ---
+*.bak
+*.orig
+*.old
+
+# --- Misc ---
+# Ignore any large datasets or generated folders
+data/
+outputs/
+saved_models/
+notebooks/
+checkpoints/
+plots/
+figures/
